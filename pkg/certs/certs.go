@@ -46,7 +46,7 @@ const (
 	certificatePEMBlockType = "CERTIFICATE"
 
 	// Threshold to consider a certificate as expiring
-	expiringCheckThreshold = 7 * 24 * time.Hour
+	expiringCheckThreshold = 15 * 24 * time.Hour
 
 	// CACertKey is the key for certificates in a CA secret
 	CACertKey = "ca.crt"
